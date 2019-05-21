@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: helvetica;
+}
+body{}
+img{
+	max-width: 100%;
+	display: block;
+}
+header{
+    background: black;
+    text-align: center;
+    padding: 8px 0;
+}
+header h1{color: white;font-size: 28px;}
+header a{
+    color: seagreen;
+    font-size: 11px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/***menu***/
+nav{
+    border-bottom: 1px solid #d8d8d8;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+    display: block;
+    padding: 14px;
+}
+nav ul li a:hover{
+	    color: seagreen;
+}
+
+/***course***/
+.course-section{}
+.course-section .container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.course-heading{
+    text-align: center;
+    padding: 60px 0;
+}
+.course-heading h2{
+    font-size: 36px;
+}
+.course-heading p{
+    color: #484848;
+    font-size: 17px;
+}
+.container
+
+/***aside***/
+aside{
+    width: 20%;
+    float: left;
+}
+aside ul{}
+aside ul li{}
+aside ul li a:hover{
+	font-weight: 900;
+}
+aside ul li a:focus{
+	font-weight: 900;
+}
+aside ul li a{
+    color: #666;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/***courses***/
+.courses{
+    width: 80%;
+    float: left;
+}
+.courses .course{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.courses .course a{
+    text-decoration: none;
+    color: #666;
+}
+.courses .course img{
+    height: 180px;
+    width: 100%;
+    transition: 0.5s;
+}
+.courses .course img:hover{
+	opacity: 0.5;
+}
+.courses .course h3{
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 4px;
+	transition: 0.5s;
+}
+.courses .course:hover h3{
+	color: seagreen;
+	margin-left: 10px;
+}
+
+/*** footer ***/
+footer{
+    padding: 31px 0;
+}
+.feature{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 72px 0;
+    background: #eee;
+}
+.feature h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #676767;
+}
+.feature h4 strong{
+    color: #5a5a5a;
+}
+.feature p{
+    font-size: 14px;
+    color: #666;
+    margin: auto;
+}
+footer .container{}
